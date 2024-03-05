@@ -8,6 +8,6 @@ def decrypt(plaintext, key):
 	return ciphertext
 
 
-flag = "QSGOFSIGOJOIBQWTFOFWCGWAWZS"
+flag = "QSGOFSIGOJOIBQWTFOFWCGWAWZS" #Encrypt flag
 for i in range(1,26):
     print(decrypt(flag,i))
