@@ -1,22 +1,22 @@
-### Title
+## Title
 Tu quoque lusor, me intelligis?
 
-### Platform
+## Platform
 Olicyber
 
-### Url
+## Url
 
 https://training.olicyber.it/challenges#challenge-558
 
-### Category
+## Category
 
 Cripto
 
-### Difficult
+## Difficult
 
 Easy
 
-### Step
+## Step
 
 1. Analyze the script
 
@@ -38,7 +38,7 @@ The script use a caeser
 3. Now we can try a bruteforce because the possible key are only 26 this because the assert in the script ```assert key < len(alphabet) and key > 0```
 
 
-### Solution
+## Solution
 
 ```Python
 
