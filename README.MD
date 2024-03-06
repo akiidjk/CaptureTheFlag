@@ -9,12 +9,12 @@ I'm not a professional or anything but a computer security and CTF competition e
 
 ## Stats in the diary
 
-- **Total CTF**: 1
-- **Crypto CTF**: 1
+- **Total CTF**: 4
+- **Crypto CTF**: 3
 - **Software CTF**: 0
 - **Web CTF**: 0
 - **Network CTF**: 0
-- **Misc CTF**: 0
+- **Misc CTF**: 1
 - **OSINT CTF**: 0
 - **Multi-Category**:0
 
@@ -61,4 +61,3 @@ Some step for the solve of challenge
 How I arrived at the solution and the actual solution (without flags of course)
 
 ```
-
