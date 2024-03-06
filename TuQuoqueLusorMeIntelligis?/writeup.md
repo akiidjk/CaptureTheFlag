@@ -32,10 +32,10 @@ def encrypt(plaintext, key):
 	return ciphertext
 
 ```
-The script use a caeser 
+The script uses a caeser 
 
-2. Now we have the cyper text: QSGOFSIGOJOIBQWTFOFWCGWAWZS and the script
-3. Now we can try a bruteforce because the possible key are only 26 this because the assert in the script ```assert key < len(alphabet) and key > 0```
+2. Now we have the cypher text: QSGOFSIGOJOIBQWTFOFWCGWAWZS and the script
+3. Now we can try a bruteforce because the possible keys are only 26, this is because the assert in the script is ```assert key < len(alphabet) and key > 0```.
 
 
 ## Solution
