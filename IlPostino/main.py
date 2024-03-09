@@ -1,0 +1,21 @@
+import base64
+
+base64_data = """
+UEsDBAoAAAAAADulm1QAAAAAAAAAAAAAAAAFABwAZGF0aS9VVAkAA3GOaWJyjmlidXgLAAEE
+6AMAAAToAwAAUEsDBAoACQAAAMikm1Rtav/dPwAAADMAAAANABwAZGF0aS9mbGFnLnR4dFVU
+CQADl41pYpeNaWJ1eAsAAQToAwAABOgDAADqjURVPEQmTgYftinWcYp1R87NwCw+inMGmSJx
+Ndf3SFn9rf7VTQXPUfa4qogymeZk/HP9so/1hEOXvUosP7NQSwcIbWr/3T8AAAAzAAAAUEsB
+Ah4DCgAAAAAAO6WbVAAAAAAAAAAAAAAAAAUAGAAAAAAAAAAQAP1BAAAAAGRhdGkvVVQFAANx
+jmlidXgLAAEE6AMAAAToAwAAUEsBAh4DCgAJAAAAyKSbVG1q/90/AAAAMwAAAA0AGAAAAAAA
+AQAAALSBPwAAAGRhdGkvZmxhZy50eHRVVAUAA5eNaWJ1eAsAAQToAwAABOgDAABQSwUGAAAA
+AAIAAgCeAAAA1QAAAAAA
+"""
+
+base64_data_cleaned = base64_data.strip()
+
+zip_data = base64.b64decode(base64_data_cleaned)
+
+with open("dati.zip", "wb") as zip_file:
+    zip_file.write(zip_data)
+
+print("File 'dati.zip' extract and saved successfully.")
