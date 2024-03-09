@@ -1,6 +1,3 @@
-
-
-
 def decrypt(plaintext, key):
 	alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 	assert key < len(alphabet) and key > 0
