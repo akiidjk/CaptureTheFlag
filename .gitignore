@@ -1,2 +1,5 @@
 # Python env
 env
+.venv
+.env
+venv
