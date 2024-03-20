@@ -8,7 +8,8 @@ enc_base64 = "4bEPJBge2NKncgt/74V4kfh4PReBc56MSegFTmt6rJA2oclTm9zvARke4jOUkdfG"
 enc_hex = ''.join(format(byte, '02x') for byte in b64decode(enc_base64)).encode()
 
 plaintext = b'{"admin": false, "msg": "Dammi la flaaag!"}'
-target = b'{"admin": true, "msg": "Dammi la flaaag!"}'
+target = b'{"admin": true , "msg": "Dammi la flaaag!"}'
+
 print(len(plaintext))
 print(len(target))
 
