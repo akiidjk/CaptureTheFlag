@@ -9,10 +9,10 @@ I'm not a professional or anything but a computer security and CTF competition e
 
 ## Stats in the diary
 
-- **Total CTF**: 10
+- **Total CTF**: 11
 - **Crypto CTF**: 5
 - **Software CTF**: 1
-- **Web CTF**: 0
+- **Web CTF**: 1
 - **Network CTF**: 1
 - **Misc CTF**: 3
 - **OSINT CTF**: 0
